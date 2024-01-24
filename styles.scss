@@ -64,6 +64,10 @@ body {
         color: #FFF;
         font-size: 16px;
         font-weight: 400;
+
+        &:hover {
+          cursor: pointer;
+        }
       }
     }
     .sea-box {
@@ -151,7 +155,12 @@ body {
         font-size: 20px;
         font-weight: 400;
         line-height: 30px;
+
+        &:hover{
+          cursor: pointer;
+        }
       }
+
     }
     .container {
       display: flex;
@@ -511,6 +520,10 @@ body {
       font-size: 20px;
       font-weight: 400;
       line-height: 30px;
+
+      &:hover{
+        cursor: pointer;
+      }
     }
   }
 
